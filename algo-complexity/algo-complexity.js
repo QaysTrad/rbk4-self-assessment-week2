@@ -8,7 +8,8 @@
 // Problem 1: Retrieval of a value from a hash table using the following function with regard to the size of the hash table.
 
 /*
- Complexity:
+ Complexity:the complexity is Big-O(n)
+this funcntion has[-O n] , becouse [for loop ] means [it take form the memory time to load] 
  */
 
 
@@ -24,7 +25,8 @@ var retrieve = function(key) {
 // Problem 2: sortedArrayContainsItem with regard to the length of the passed-in array
 
 /*
- Complexity:
+ Complexity:Big-O(1)
+ this function has[-O logn] , becouse [if statment] which means [ not that changes in the memory ]
  */
 
 
@@ -41,7 +43,9 @@ var sortedArrayContainsItem = function(array, item) {
 // Problem 3: hasDuplicates with regard to the length of the passed in array
 
 /*
- Complexity:
+ Complexity:Big -O(n)
+ this function has [-O n] , becouse [for loop , inside it if statment] it's means [the if  it's instnet -O(logn) and there's 
+ a for loop above of it and the for loop its -O(n) , so in this case we take the best case for it it's -O(n)]
  */
 
 
