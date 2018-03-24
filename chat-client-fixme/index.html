@@ -40,7 +40,8 @@
     <script>
       // Get messages every 7.5 seconds
       getData();
-      setInterval(getData, 7500);
+      //change the time in here to be less than a second 
+      setInterval(getData, 100);
 
       $('.submit').on('submit', function(event) {
         event.preventDefault();
