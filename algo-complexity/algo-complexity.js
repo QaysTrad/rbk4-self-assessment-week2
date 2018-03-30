@@ -25,8 +25,8 @@ var retrieve = function(key) {
 // Problem 2: sortedArrayContainsItem with regard to the length of the passed-in array
 
 /*
- Complexity:Big-O(1)
- this function has[-O logn] , becouse [if statment] which means [ not that changes in the memory ]
+ Complexity:Big-O(n)
+ this function has[-O n] , becouse [recartion] which means [this well itrate the function more than one time]
  */
 
 
@@ -43,9 +43,9 @@ var sortedArrayContainsItem = function(array, item) {
 // Problem 3: hasDuplicates with regard to the length of the passed in array
 
 /*
- Complexity:Big -O(n)
- this function has [-O n] , becouse [for loop , inside it if statment] it's means [the if  it's instnet -O(logn) and there's 
- a for loop above of it and the for loop its -O(n) , so in this case we take the best case for it it's -O(n)]
+ Complexity:Big -O(n2)
+ this function has [-O n2] , becouse [for loop , inside it indexOf] it's means [the indexOf  it's instnet -O(n) and there's 
+ a for loop above of it and the for loop its -O(n) , so in this case we take the best case for it it's -O(n2)]
  */
 
 

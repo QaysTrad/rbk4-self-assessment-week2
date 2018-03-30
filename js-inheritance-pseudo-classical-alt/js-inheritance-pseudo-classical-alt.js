@@ -58,7 +58,7 @@ FlyingHorse.prototype.constructor = FlyingHorse ;
 
 FlyingHorse.prototype.goSomewhere = function (destination , milesToDestination) {
    if (milesToDestination < 10) {
-      return oldGoSomewhere(destination);
+   return makeDancer.prototype.goSomewhere.call(this , destination) ;
     } else {
       return name + ' is flying to ' + destination + '!';
     }
